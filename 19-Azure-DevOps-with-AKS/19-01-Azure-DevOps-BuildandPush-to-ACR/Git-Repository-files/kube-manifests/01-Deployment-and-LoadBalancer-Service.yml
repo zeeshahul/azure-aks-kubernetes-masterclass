@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: app1-nginx
-          image: zeeshahul/azure-aks-kubernetes-masterclass
+          image: aksdemorepo.azurecr.io/zeeshahul/azure-aks-kubernetes-masterclass
           ports:
             - containerPort: 80
 ---
